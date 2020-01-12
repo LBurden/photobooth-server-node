@@ -1,0 +1,19 @@
+{
+    "name": "photobooth-server-node",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "nodemon server.js",
+        "photos": "http-server -p 9001"
+    },
+    "author": "Lawrence Burden <burdenlawrence@btopenworld.com>",
+    "private": true,
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "cors": "^2.8.1",
+        "express": "^4.14.1",
+        "http-server": "*"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
